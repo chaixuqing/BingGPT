@@ -34,7 +34,7 @@ module.exports = {
 			name: '@electron-forge/maker-deb',
 			config: {
 				options: {
-					bin: 'BingChat',
+					executableName: 'BingChat',
 					name: 'bing-chat',
 					productName: 'Bing Chat',
 					description: 'AI-powered copilot',
@@ -51,7 +51,7 @@ module.exports = {
 			name: '@electron-forge/maker-rpm',
 			config: {
 				options: {
-					bin: 'BingChat',
+					executableName: 'BingChat',
 					name: 'bing-chat',
 					productName: 'Bing Chat',
 					description: 'AI-powered copilot',
