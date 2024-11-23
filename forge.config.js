@@ -2,6 +2,7 @@ module.exports = {
 	packagerConfig: {
 		appCopyright: 'Copyright © 2024 foxypiratecove37350',
 		appBundleId: 'com.foxypiratecove37350.bingchat',
+		executableName: 'bing-chat',
 		icon: 'icon',
 		platforms: ['darwin', 'linux', 'win32'],
 		arch: ['x64', 'arm64'],
@@ -34,7 +35,7 @@ module.exports = {
 			name: '@electron-forge/maker-deb',
 			config: {
 				options: {
-					executableName: 'BingChat',
+					executableName: 'bing-chat',
 					name: 'bing-chat',
 					productName: 'Bing Chat',
 					description: 'AI-powered copilot',
@@ -51,7 +52,7 @@ module.exports = {
 			name: '@electron-forge/maker-rpm',
 			config: {
 				options: {
-					executableName: 'BingChat',
+					executableName: 'bing-chat',
 					name: 'bing-chat',
 					productName: 'Bing Chat',
 					description: 'AI-powered copilot',
