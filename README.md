@@ -1,7 +1,7 @@
 <p align="center">
 	<img src="./icon.png" alt="Bing Chat">
 	<h1 align="center">Bing Chat</h1>
-	<p align="center">Desktop application of new Bing's AI-powered chat</p>
+	<p align="center">Desktop application of Bing's AI-powered chat</p>
 </p>
 
 <p align="center">
