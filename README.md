@@ -50,8 +50,10 @@ sudo xattr -d com.apple.quarantine /Applications/BingChat.app
 
 - Chat with Microsoft Edge Copilot in its own window
 - Export full conversation to Markdown, PNG or PDF
-  > [!WARNING]
-  > Text is shifted down for PNG and PDF export, see [html2canvas/issues#2775](https://github.com/niklasvh/html2canvas/issues/2775)
+
+> [!WARNING]
+> Text is shifted down for PNG and PDF export, see [html2canvas/issues#2775](https://github.com/niklasvh/html2canvas/issues/2775)
+
 - Customize appearance (theme & font size)
 - Keyboard shortcuts
 - Multi-platform
