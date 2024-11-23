@@ -51,7 +51,7 @@ window.addEventListener('DOMContentLoaded', () => {
 					ipcRenderer.send('update-theme', mutation.target.getAttribute(mutation.attributeName))
 				}
 			}
-		}).observe(document.documentElement, {attributes: true});
+		}).observe(document.documentElement, { attributes: true });
 	}
 })
 
