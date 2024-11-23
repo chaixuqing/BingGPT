@@ -292,7 +292,7 @@ const createWindow = () => {
 		if (cmdKey) {
 			switch (input.code) {
 				case 'KeyN':
-					mainWindow.webContents.send('new-topic')
+					mainWindow.webContents.send('new-chat')
 					event.preventDefault()
 					break
 				case 'KeyR':

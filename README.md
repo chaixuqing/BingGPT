@@ -62,7 +62,7 @@ sudo xattr -d com.apple.quarantine /Applications/BingChat.app
 
 | Action            | Shortcut                                        |
 | ----------------- | ----------------------------------------------- |
-| New topic         | <kbd>Ctrl/Cmd</kbd> + <kbd>N</kbd>              |
+| New chat          | <kbd>Ctrl/Cmd</kbd> + <kbd>N</kbd>              |
 | Focus on textarea | <kbd>Ctrl/Cmd</kbd> + <kbd>I</kbd>              |
 | Always on top     | <kbd>Ctrl/Cmd</kbd> + <kbd>T</kbd>              |
 | Reload            | <kbd>Ctrl/Cmd</kbd> + <kbd>R</kbd>              |

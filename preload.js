@@ -55,10 +55,10 @@ window.addEventListener('DOMContentLoaded', () => {
 	}
 })
 
-// New topic
-ipcRenderer.on('new-topic', () => {
+// New chat
+ipcRenderer.on('new-chat', () => {
 	try {
-		const newTopicBtn1 =
+		const newChatBtn1 =
 			document.querySelector("#app > main > div.pointer-events-none.absolute.bottom-0.flex.w-full.z-10"
 				+ " > div.relative.mb-4.flex.w-full.flex-col.items-center.px-3.sm\\:mb-8 > div"
 				+ " > div.relative.overflow-hidden.backdrop-blur-2xl.backdrop-saturate-200.before\\:bg-slate-200"
@@ -66,10 +66,10 @@ ipcRenderer.on('new-topic', () => {
 				+ ".before\\:inset-0.before\\:bg-blend-luminosity.after\\:bg-spot-peach-100.after\\:opacity-60.dark"
 				+ "\\:after\\:bg-slate-800.dark\\:after\\:opacity-50.after\\:absolute.after\\:inset-0 > div > div"
 				+ " > div:nth-child(2) > button")
-		if (newTopicBtn1) {
-			newTopicBtn1.click()
+		if (newChatBtn1) {
+			newChatBtn1.click()
 			setTimeout(() => {
-				const newTopicBtn =
+				const newChatBtn =
 					document.querySelector("#app > main > div.pointer-events-none.absolute.bottom-0.flex.w-full.z-10"
 						+ " > div.relative.mb-4.flex.w-full.flex-col.items-center.px-3.sm\\:mb-8 > div:nth-child(1)"
 						+ " > div > button.relative.flex.items-center.justify-center.text-foreground-800.fill-foreground-800"
@@ -80,8 +80,8 @@ ipcRenderer.on('new-topic', () => {
 						+ "\\:border-transparent.before\\:contrast-more\\:border-2.outline-2.outline-offset-1.focus-visible"
 						+ "\\:z-\\[1\\].focus-visible\\:outline.focus-visible\\:outline-stroke-900.z-10.flex.items-center"
 						+ ".justify-between.text-start.ps-3\\.5")
-				if (newTopicBtn) {
-					newTopicBtn.click()
+				if (newChatBtn) {
+					newChatBtn.click()
 				}
 			}, 5) // Little delay, otherwise it seem that the menu doesn't have the time to open, even if it opens after a 5ms delay
 		}
